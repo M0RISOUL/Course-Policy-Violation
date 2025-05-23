@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 120%;
+  background: white;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+form, .content {
+  width: 50%;
+  margin: 0px auto;
+  padding: 0px;
+  margin-bottom: 40px;
+  background: #ddd;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: -200px;
+  /* Center the table horizontally */
+  border-collapse: collapse;
+  width: 800px;
+  max-width: 1000px;
+  /* Adjust the max-width to your preference */
+}
+
+th {
+  background-color: #333;
+  /* Dark background color for header */
+  color: white;
+  /* Text color for header */
+  font-weight: bold;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+  /* Light background color for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+  /* Slightly darker background color for odd rows */
+}
+
+.button-container {
+  display: flex;
+  /* Use flexbox for horizontal alignment */
+  justify-content: space-between;
+  /* Distribute space between buttons */
+  width: 50%;
+  /* Adjust the width as needed */
+  margin: 0 auto;
+  /* Center the container horizontally */
+}
+
+button {
+  display: block;
+  /* Make buttons block-level elements */
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  /* Adjust the width as needed */
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4F8A90;
+  /* Darker shade on hover */
+}
